@@ -1,0 +1,1 @@
+Esta es la Release 1.0 de GameTracker es una aplicación web desarrollada para permitir a los usuarios gestionar su colección de videojuegos, registrando juegos pendientes y completados, facilitando la organización y seguimiento de los mismos mediante una interfaz sencilla y amigable.
