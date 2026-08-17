@@ -1,0 +1,49 @@
+# Build results
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider
+.idea/
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# NuGet
+packages/
+*.nupkg
+
+# Publish output
+publish/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Entity Framework
+*.mdf
+*.ldf
+
+# Local app settings
+appsettings.Development.json
+secrets.json
+
+# Azure
+PublishProfiles/
+
+# Temporary files
+*.tmp
+*.temp
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store

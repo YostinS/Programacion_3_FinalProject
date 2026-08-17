@@ -1,0 +1,42 @@
+﻿@page
+@model GameTrackerWeb.Pages.Games.IndexModel
+
+<h2>Game List</h2>
+
+<a asp-page="Create">
+    Add New Game
+</a>
+
+<hr />
+
+<table border="1">
+
+    <tr>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Status</th>
+        <th>Actions</th>
+    </tr>
+
+    @foreach (var game in Model.Games)
+    {
+        <tr>
+            <td>@game.Id</td>
+            <td>@game.Name</td>
+            <td>@game.Status</td>
+
+            <td>
+                <a asp-page="Edit" asp-route-id="@game.Id">
+                    Edit
+                </a>
+
+                |
+
+                <a asp-page="Delete" asp-route-id="@game.Id">
+                    Delete
+                </a>
+            </td>
+        </tr>
+    }
+
+</table>
